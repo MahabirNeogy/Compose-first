@@ -26,11 +26,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            Column {
-                Example("ram","delhi")
-                Example("shyam","bengalore")
-                Example("scfasfc","Pune")
-            }
+            previewitem()
         }
     }
 }
